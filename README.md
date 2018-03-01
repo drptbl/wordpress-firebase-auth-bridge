@@ -1,5 +1,5 @@
 # wordpress-firebase-auth-bridge
-This is an API endpoint which is used by [Remote Control app](url).<br>
+This is an API endpoint which is used by [BRCS - Bot Remote Control System](https://github.com/drptbl/remotecontrol-app).<br>
 It allows to authenticate users in `Firebase` with `Wordpress` details (using `jwt`).<br>
 If user doesn't exist in `Firebase` it will be created first and then authenticated.
 
