@@ -42,6 +42,7 @@ I will be honest here. There may be some steps missing so you will have to figur
     - `./ecosystem.config.js`
     - `./dev_ecosystem.config.js`
     - `./settings.js`
+    - `./package.json` => modify name of your app (if changed) in pre-defined commands
 
 ## Things to keep-in-mind:
 - add your ssh key to deployment machine

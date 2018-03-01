@@ -1,8 +1,8 @@
 {
-  "name": "wordpress-firebase-custom-token-service",
+  "name": "wordpress-firebase-auth-bridge",
   "version": "1.1.0",
-  "description": "Endpoint which bridges user authentication of Wordpress JWT and Firebase Auth",
-  "main": "_listen.js",
+  "description": "API endpoint allowing users to authenticate in Firebase using Wordpress details.",
+  "author": "drptbl",
   "scripts": {
     "nodeprod": "node _listen.js",
     "pm2dev": "pm2 startOrRestart dev_ecosystem.config.js --env dev",
@@ -25,16 +25,11 @@
     "pm2devdeploylogs": "pm2 deploy ecosystem.config.js dev run \"pm2 logs \"LoginAPI\"\"",
     "pm2proddeploylogs": "pm2 deploy ecosystem.config.js prod run \"pm2 logs \"LoginAPI\"\""
   },
+  "main": "_listen.js",
   "repository": {
     "type": "git",
-    "url": "git+https://drptbl@github.com/drptbl/wordpress-firebase-custom-token-service.git"
+    "url": "https://github.com/drptbl/wordpress-firebase-auth-bridge.git"
   },
-  "author": "Jakub Mucha",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/drptbl/wordpress-firebase-custom-token-service/issues"
-  },
-  "homepage": "https://github.com/drptbl/wordpress-firebase-custom-token-service#readme",
   "devDependencies": {
     "eslint": "3.19.0",
     "babel-eslint": "7.2.3",
